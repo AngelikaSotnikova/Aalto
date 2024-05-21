@@ -1,224 +1,219 @@
 @font-face {
-	font-family: 'Senbold'; 
-	src: url(./Geometria/Geometria-Bold.eot); 
+  font-family: "Senbold";
+  src: url(./fonts/Geometria-Bold.eot);
 }
 
 @font-face {
-	font-family: 'Senreg'; 
-	src: url(./Geometria/Geometria-Bold.ttf); 
+  font-family: "Senreg";
+  src: url(./fonts/Geometria-Bold.ttf);
 }
 
 .content {
-    max-width: 1200px;
-    height: auto;
-    background-color: rgb(255, 255, 255);
-    font-family: 'Senreg';
+  max-width: 1200px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  font-family: "Senreg";
 }
 .header {
-    width: 100%;
-    border-bottom: solid 1px black;
-    margin: 20px;
+  width: 100%;
+  border-bottom: solid 1px black;
+  margin: 20px;
 }
 .header_bloсk1 {
-    flex-direction: row;
-	display: flex;
-    justify-content: center;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
 }
 .header_bloсk1_logo {
-    flex-direction: row;
-	display: flex;
-    justify-content: center;
-    padding-right: 50%;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  padding-right: 50%;
 }
 .header_bloсk1_logo_regist {
-    padding: 10px;
+  padding: 10px;
+  /* width: 70px;
+  height: 20px; */
 }
 .header_bloсk2 {
-    flex-direction: row;
-	display: flex;
-    justify-content: center;
-    border-top: solid 1px black;
-    margin: 5px;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  border-top: solid 1px black;
+  margin: 5px;
 }
 .header_bloсk2 a {
-    margin: 8px;
-    text-decoration: none;
-    color: black;
+  margin: 8px;
+  text-decoration: none;
+  color: black;
 }
 .content_box {
-    max-width: 100%;
-    background-color: rgb(255, 255, 255); 
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
 }
 .content_box_img {
-    background-image: url(./Images/aalto.jpg);
-    background-position: center center;
-    background-size: cover;
-    width: 100%;
-    height: 400px;
-    margin: 20px;
-    
+  background-image: url(./Images/aalto.jpg);
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  margin: 20px;
 }
 .footer {
-    border-top: solid 1px black;
-    margin: 20px;
+  border-top: solid 1px black;
+  margin: 20px;
 }
 .header_logo {
 }
 .footer_podval {
 }
 
-
-
 .content_box_content {
 }
 .video {
-    width: 100%;
-    padding: 10px;
+  width: 100%;
+  padding: 10px;
 }
 .content_box_katalog1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .content_box_katalog_tovar11 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
-    width: 50%;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
+  width: 50%;
 }
 .content_box_katalog_img {
 }
 .content_box_katalog_tovar22 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
-    width: 50%;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
+  width: 50%;
 }
 .content_box_katalog_tovar33 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
-    width: 50%;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
+  width: 50%;
 }
-  .section {
-    display: flex;
-    justify-content: space-between;
-    overflow-x: auto;
-    width: 50%;
-    margin: 50px auto;
-    scroll-snap-type: x mandatory;
-  }
-  
-  .section_item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 0 0 300px;
-    height: 250px;
-    font-size: 50px;
-    scroll-snap-align: start;
-  }
-  
-  .item1 {
-    background-color: #d6d3d3;
-  }
-  
-  .item2 {
-    background-color: #f0e1d4;
-  }
-  
-  .item3 {
-    background-color: #d5e1e1;
-  }
-  
-  .item4 {
-    background-color: #d8dfd8;
-  }
-  
-  .item5 {
-    background-color: #dfecec;
-  }
+.section {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+  width: 50%;
+  margin: 50px auto;
+  scroll-snap-type: x mandatory;
+}
 
+.section_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 300px;
+  height: 250px;
+  font-size: 50px;
+  scroll-snap-align: start;
+}
+
+.item1 {
+  background-color: #d6d3d3;
+}
+
+.item2 {
+  background-color: #f0e1d4;
+}
+
+.item3 {
+  background-color: #d5e1e1;
+}
+
+.item4 {
+  background-color: #d8dfd8;
+}
+
+.item5 {
+  background-color: #dfecec;
+}
 
 .content_box_katalog {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .content_box_katalog_tovar1 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
 }
 .content_box_katalog_img {
 }
 .content_box_katalog_tovar2 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
 }
 .content_box_katalog_tovar3 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
 }
 .content_box_katalog_tovar4 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
 }
 .content_box_katalog_tovar5 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
 }
 .content_box_katalog_tovar6 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
 }
 .content_box_katalog_tovar7 {
-    flex-direction: column;
-    display: flex;
-    margin: 5px;
+  flex-direction: column;
+  display: flex;
+  margin: 5px;
 }
 .content_box_katalog button {
-    margin: 5px;
+  margin: 5px;
 }
 
-
 .content_box_content {
-    margin: 20px;
+  margin: 20px;
 }
 
 .content_open {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .content_open_box {
-    width: 40%;
-    padding: 20px;
+  width: 40%;
+  padding: 20px;
 }
 .content_open_pass {
-    padding: 10px;
-
+  padding: 10px;
 }
 .content_open_email {
-    padding: 10px;
+  padding: 10px;
 }
-
 
 .vxod {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .vxod_blok {
-    width: 40%;
-    padding: 20px;
+  width: 40%;
+  padding: 20px;
 }
 .vxod_stroka {
-    padding: 10px;
+  padding: 10px;
 }
